@@ -6,7 +6,7 @@ public class Person {
     private int height;
     private int weight;
 
-    public Person(String name, int age, String eyeColor, String hairColor, int height, int weight) {
+    public Person(String name, int age, int height, int weight, String eyeColor, String hairColor) {
         this.name = name;
         this.age = age;
         this.eyeColor = eyeColor;
@@ -24,11 +24,11 @@ public class Person {
         return this.age;
     }
 
-    public String getEyeColor() {
+    public String getEyeColour() {
         return this.eyeColor;
     }
 
-    public String getHairColor() {
+    public String getHairColour() {
         return this.hairColor;
     }
 
